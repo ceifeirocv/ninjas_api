@@ -4,3 +4,6 @@
 - MongoDB
 - Mongoose
 - .env
+- swagger
+
+Documentation - /docs-api
