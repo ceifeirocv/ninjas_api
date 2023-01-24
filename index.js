@@ -17,7 +17,7 @@ async function main() {
 
 app.use(express.json())
 
-app.use('/api', apiRoutes)
+app.use('/api/v1', apiRoutes)
 
 app.listen(PORT, () => {
   console.log(`Now listening for request on http://127.0.0.1:${PORT}`)
